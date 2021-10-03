@@ -19,8 +19,8 @@ Internally, this method, does the following:
 - calls the Cat API
 - fetches a random cat
 - maps the response into [CatResult class](https://github.com/jain-rishu/cat-api-assignment/blob/main/src/main/java/com/rishu/assignment/model/CatResult.java)
-- fetches the url attribute from the response object
-- displays the image from that URL into the browser
+- fetches the `url` attribute from the response object
+- displays the image from that URL into the browser by returning an `<img/>` HTML tag
 
 ## Result 
 Results achieved after running the application using above steps and opening http://localhost:8080/cat/random in a browser.
